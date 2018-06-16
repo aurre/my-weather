@@ -24,5 +24,7 @@ program
 if (program.city) {
   let cityNumber = process.argv.indexOf(program.city);
 
-  weather.getWeather(process.argv[cityNumber]);
+  weather.getWeather(process.argv[cityNumber]).then(res => {
+    console.log(res);
+  });
 }

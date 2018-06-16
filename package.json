@@ -1,6 +1,6 @@
 {
   "name": "myweather-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "weather-cli-app",
   "main": "index.js",
   "scripts": {
@@ -19,10 +19,14 @@
   "bin": {
     "weather": "./cli.js"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-eslint": "^8.2.3",
+    "chalk": "^2.4.1",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.15.1",
