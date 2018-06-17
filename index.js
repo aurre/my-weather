@@ -1,7 +1,6 @@
 const axios = require('axios');
 
 const API_URL_CITY = 'http://api.openweathermap.org/data/2.5/weather?q=';
-const API_URL_FORECAST = 'http://api.openweathermap.org/data/2.5/forecast?q=';
 const apiKey = 'b31d089c7cf4494d9ce4ded2a6bfb0f4';
 
 const toFahrenheit = temp => Math.round((9 / 5) * (temp - 273) + 32);
