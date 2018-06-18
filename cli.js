@@ -13,10 +13,6 @@ program
     '-s, --scale <scale>',
     'Convert temp in celsius. Default to Fahrenheit'
   )
-  .option(
-    '-f, --forecast [value]',
-    'Optional if you want to see the weather for the next 5 days'
-  )
   .action(function(file) {
     console.log(
       'city: %s country: %s, scale: %s file: %s',
