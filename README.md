@@ -17,19 +17,19 @@ $ weather --help
   Options
     --city, -c City you want to lookup weather for
     --country, -C Country you want to lookup weather for
-    --scale, -s Weather scale. Defaults to Celcius
+    --scale, -s Weather scale. Defaults to Fahrenheit
     --help Show this help message
     --version Display version info and exit
     config Set the default location
 
   Examples
-    $ weather -c Dhaka -C Bangladesh
-    Dhaka, Bangladesh
+    $ weather -c Chicago -C US
+    Chicago, US
     Condition: Partly Cloudy
-    Temperature: 32°C
+    Temperature: 72°F
 
-    $ weather config -c Dhaka -C Bangladesh
-    Default location set to Dhaka, Bangladesh
+    $ weather config -c Chicago -C US
+    Default location set to Chicago, US
 ```
 
 ### Issues
